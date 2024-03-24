@@ -11,7 +11,7 @@
 }
 
 .default {
-	color: var(--default-color);
+	color: var(--default-collor);
 }
 
 .white {
@@ -21,10 +21,6 @@
 .title {
 	font: var(--font-l);
 }
-
-/* .text {
-	font: var(--font-m);
-} */
 
 .size_xs .text {
 	font: var(--font-xs);
@@ -43,6 +39,26 @@
 }
 
 .size_xl .text {
+	font: var(--font-xl);
+}
+
+.size_xs .title {
+	font: var(--font-xs);
+}
+
+.size_s .title {
+	font: var(--font-s);
+}
+
+.size_m .title {
+	font: var(--font-m);
+}
+
+.size_l .title {
+	font: var(--font-l);
+}
+
+.size_xl .title {
 	font: var(--font-xl);
 }
 

@@ -1,13 +1,24 @@
-import cn from 'classnames';
+import { Product } from '../../types/types';
+import Card from '../Card/Card';
+import CardContent from '../CardContent/CardContent';
 import s from './Cards.module.css';
 
-const Cards = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export interface CardsProps {
+	products: Product[];
 }
 
-export default Cards;
+const Cards = ({ products }: CardsProps) => {
+	const data = products.slice(0, 6);return (
+		<div className={s.wrapper}>
+			{products.map(p => {
+				return (
+					<Card key={p.id} className={s.cardWrapper}>
+						<CardContent product={p} />
+					</Card>
+				);
+			})}
+		</div>
+	);
+};
 
+export default Cards;
