@@ -1,0 +1,27 @@
+.button {
+	position: relative;
+	background: transparent;
+	border: none;
+	width: 23px;
+	height: 23px;
+	opacity: 1;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.7;
+}
+
+.count {
+	background-color: var(--primary-color);
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	right: -15px;
+	width: 17px;
+	height: 17px;
+	color: var(--white-color);
+	font: var(--font-s);
+	font-weight: 500;
+}
