@@ -10,7 +10,9 @@ export interface CardContentProps {
 const CardContent = ({ product }: CardContentProps) => {
 	return (
 		<div className={s.cardContent}>
-			<img className={s.image} src={product.img} alt={`${product.title}.`} />
+			<div className={s.imageWrapper}>
+				<img className={s.image} src={product.img} alt={`${product.title}.`} />
+			</div>
 			<div className={s.info}>
 				<div className={s.titleWrapper}>
 					<Text
@@ -24,6 +26,14 @@ const CardContent = ({ product }: CardContentProps) => {
 						size={TextSize.M}
 						theme={TextTheme.PRIMARY}
 					/>
+					{product.id === '0' && (
+						<Text
+							className={s.sale}
+							text={`3527 ₽`}
+							size={TextSize.XS}
+							theme={TextTheme.PRIMARY_LIGHT}
+						/>
+					)}
 				</div>
 				<div className={s.textWrapper}>
 					<div className={s.rate}>

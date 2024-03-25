@@ -8,7 +8,7 @@ export interface CardsProps {
 }
 
 const Cards = ({ products }: CardsProps) => {
-	const data = products.slice(0, 6);return (
+	return (
 		<div className={s.wrapper}>
 			{products.map(p => {
 				return (

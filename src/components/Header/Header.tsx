@@ -1,5 +1,6 @@
 import cart from '../../assets/cart.svg';
 import like from '../../assets/like.svg';
+import { RoutePath } from '../../utils/config/routeConfig';
 import IconButton from '../IconButton/IconButton';
 import Logo from '../Logo/Logo';
 import s from './Header.module.css';
@@ -9,8 +10,8 @@ const Header = () => {
 		<header className={s.header}>
 			<Logo />
 			<div className={s.iconWrapper}>
-				<IconButton count={'2'} title='Кнопка избранное' link={like} />
-				<IconButton count={'1'} title='Кнопка корзина' link={cart} />
+				<IconButton count={'2'} title='Кнопка избранное' img={like} link={'#'}/>
+				<IconButton count={'1'} title='Кнопка корзина' img={cart} link={RoutePath.cart}/>
 			</div>
 		</header>
 	);

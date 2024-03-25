@@ -6,6 +6,10 @@
 	color: var(--light-color);
 }
 
+.primaryLight {
+	color: var(--primary-light-color);
+}
+
 .dark {
 	color: var(--dark-color);
 }

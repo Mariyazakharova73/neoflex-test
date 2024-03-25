@@ -1,17 +1,21 @@
+import { Link } from 'react-router-dom';
 import s from './IconButton.module.css';
 
 export interface IconButtonProps {
 	count: string;
-	link: string;
+	img: string;
 	title: string;
+	link: string;
 }
 
-const IconButton = ({ count, link, title }: IconButtonProps) => {
+const IconButton = ({ count, img, title, link }: IconButtonProps) => {
 	return (
-		<button className={s.button}>
-			<img className={s.image} src={link} alt={`${title}.`} />
-			<div className={s.count}>{count}</div>
-		</button>
+		<Link className={s.link} to={link} target='_blank'>
+			<img className={s.image} src={img} alt={`${title}.`} />
+			<div className={s.count}>
+				<p>{count}</p>
+			</div>
+		</Link>
 	);
 };
 

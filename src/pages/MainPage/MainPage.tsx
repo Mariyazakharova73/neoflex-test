@@ -8,20 +8,24 @@ const MainPage = () => {
 	const products = useAppSelector(selectProducts);
 	return (
 		<main className={s.main}>
-			<Text
-				title='Наушники'
-				theme={TextTheme.LIGHT}
-				size={TextSize.L}
-				className={s.title}
-			/>
-			<Cards products={products.slice(0, 6)} />
-			<Text
-				text='Беспроводные наушники'
-				theme={TextTheme.LIGHT}
-				size={TextSize.L}
-				className={s.title}
-			/>
-			<Cards products={products.slice(6, 9)} />
+			<section>
+				<Text
+					title='Наушники'
+					theme={TextTheme.LIGHT}
+					size={TextSize.L}
+					className={s.title}
+				/>
+				<Cards products={products.slice(0, 6)} />
+			</section>
+			<section>
+				<Text
+					text='Беспроводные наушники'
+					theme={TextTheme.LIGHT}
+					size={TextSize.L}
+					className={s.title}
+				/>
+				<Cards products={products.slice(6, 9)} />
+			</section>
 		</main>
 	);
 };

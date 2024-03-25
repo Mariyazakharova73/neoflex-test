@@ -4,6 +4,7 @@ import s from './Text.module.css';
 
 export enum TextTheme {
 	PRIMARY = 'primary',
+	PRIMARY_LIGHT= 'primaryLight',
 	LIGHT = 'light',
 	DARK = 'dark',
 	DEFAULT = 'default',
