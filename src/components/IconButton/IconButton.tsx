@@ -10,7 +10,7 @@ export interface IconButtonProps {
 
 const IconButton = ({ count, img, title, link }: IconButtonProps) => {
 	return (
-		<Link className={s.link} to={link} target='_blank'>
+		<Link className={s.link} to={link}>
 			<img className={s.image} src={img} alt={`${title}.`} />
 			<div className={s.count}>
 				<p>{count}</p>

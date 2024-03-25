@@ -1,6 +1,7 @@
 import star from '../../assets/star.png';
 import Text, { TextSize, TextTheme } from '../../components/Text/Text';
 import { Product } from '../../types/types';
+import Button, { ButtonSizes, ButtonTheme } from '../Button/Button';
 import s from './CardContent.module.css';
 
 export interface CardContentProps {
@@ -44,9 +45,9 @@ const CardContent = ({ product }: CardContentProps) => {
 							theme={TextTheme.LIGHT}
 						/>
 					</div>
-					<button className={s.button}>
-						<Text text='Купить' size={TextSize.M} theme={TextTheme.DARK} />
-					</button>
+					<Button theme={ButtonTheme.PRIMARY} size={ButtonSizes.M}>
+						Купить
+					</Button>
 				</div>
 			</div>
 		</div>

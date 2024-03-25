@@ -11,9 +11,7 @@ body {
 	--primary-color: #ffa542;
 	--primary-light-color: #ffce7f;
 
-	/* text-color */
 	--logo-color: #101010;
-
 	--default-color: #1c1c27;
 	--light-color: #838383;
 	--dark-color: #000000;
@@ -41,6 +39,8 @@ body {
 	--font-line-xl: 30.48px;
 	--font-xl: 700 var(--font-size-xl) / var(--font-line-xl)
 		var(--font-family-main);
+
+	--app-transition: all 0.5s ease;
 
 	background-color: var(--bg-color);
 }

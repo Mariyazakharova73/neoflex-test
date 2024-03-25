@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import { Link } from 'react-router-dom';
 import tgIcon from '../../assets/Telegram.svg';
 import vkIcon from '../../assets/VK.svg';
@@ -5,6 +6,7 @@ import whatsAppIcon from '../../assets/Whatsapp.svg';
 import lang from '../../assets/lang.svg';
 import Text, { TextSize, TextTheme } from '../../components/Text/Text';
 import { LINKDATA } from '../../utils/variables';
+import Button, { ButtonSizes, ButtonTheme } from '../Button/Button';
 import Card from '../Card/Card';
 import Logo from '../Logo/Logo';
 import s from './Footer.module.css';
@@ -41,12 +43,20 @@ const Footer = () => {
 						})}
 						<div className={s.language}>
 							<img src={lang} alt='Смена языка.' />
-							<button className={s.button}>
-								<Text theme={TextTheme.PRIMARY} size={TextSize.S} text='Рус' />
-							</button>
-							<button className={s.button}>
-								<Text theme={TextTheme.DEFAULT} size={TextSize.S} text='Eng' />
-							</button>
+							<Button
+								className={cn(s.button, s.activeButton)}
+								theme={ButtonTheme.CLEAR}
+								size={ButtonSizes.S}
+							>
+								Рус
+							</Button>
+							<Button
+								className={s.button}
+								theme={ButtonTheme.CLEAR}
+								size={ButtonSizes.S}
+							>
+								Eng
+							</Button>
 						</div>
 					</ul>
 				</div>

@@ -49,28 +49,6 @@
 	gap: 10px;
 }
 
-.button {
-	background: transparent;
-	border: none;
-	opacity: 1;
-	transition: all 0.5s ease;
-	cursor: pointer;
-}
-
-.button:hover {
-	opacity: 0.5;
-	color: var(--primary-color);
-	transition: all 0.5s ease;
-}
-
-.button p {
-	transition: all 0.5s ease;
-}
-
-.button:hover p {
-	color: var(--primary-color);
-}
-
 .sale {
 	position: absolute;
 	bottom: -15px;
