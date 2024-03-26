@@ -20,7 +20,7 @@ const MainPage = () => {
 			</section>
 			<section>
 				<Text
-					text='Беспроводные наушники'
+					title='Беспроводные наушники'
 					theme={TextTheme.LIGHT}
 					size={TextSize.L}
 					className={s.title}
