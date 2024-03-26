@@ -25,9 +25,6 @@
 	color: var(--primary-color);
 }
 
-.clear {
-}
-
 .round {
 	background-color: var(--primary-light-color);
 	color: var(--white-color);

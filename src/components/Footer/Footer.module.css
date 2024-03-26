@@ -7,6 +7,7 @@
 	padding: 29px 29px 33px 29px;
 	border-radius: 30px 30px 0 0 !important;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .logo {
@@ -15,8 +16,8 @@
 
 .navWrapper {
 	margin-top: 7px;
-	margin-right: 183px;
-	width: 427px;
+	margin-right: 181px;
+	width: 423px;
 }
 
 .list {
@@ -30,7 +31,7 @@
 
 .item {
 	opacity: 1;
-	transition: all 0.5s ease;
+	transition: var(--app-transition);
 }
 
 .item:hover {

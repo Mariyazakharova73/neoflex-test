@@ -4,7 +4,6 @@ import s from './Button.module.css';
 
 export enum ButtonTheme {
 	PRIMARY = 'primary',
-	CLEAR = 'clear',
 	ROUND = 'round',
 }
 

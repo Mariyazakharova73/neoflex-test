@@ -1,3 +1,6 @@
+import tgIcon from '../assets/telegram.svg';
+import vkIcon from '../assets/vk.svg';
+import whatsAppIcon from '../assets/whatsapp.svg';
 import Img1 from '../assets/products/1.jpg';
 import Img2 from '../assets/products/2.jpg';
 import Img3 from '../assets/products/3.jpg';
@@ -73,9 +76,15 @@ export const PRODUCTS: Product[] = [
 	},
 ];
 
-export const LINKDATA = [
+export const LinksData = [
 	{ text: 'Избранное', link: '#' },
 	{ text: 'Корзина', link: RoutePath.cart },
 	{ text: 'Контакты', link: '#' },
 	{ text: 'Условия сервиса', link: '#' },
+];
+
+export const socialLinks = [
+	{ name: 'Вконтакте.', img: vkIcon, link: 'https://vk.com/' },
+	{ name: 'WhatsApp.', img: whatsAppIcon, link: 'https://web.whatsapp.com/' },
+	{ name: 'Телеграм.', img: tgIcon, link: 'https://web.telegram.org/' },
 ];

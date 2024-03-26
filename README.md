@@ -5,7 +5,7 @@
 <div>
   <img height='25px' src="https://img.shields.io/badge/React-20232A??style=plastic&logo=react&logoColor=61DAFB" alt="React.">
   <img height='25px' src="https://img.shields.io/badge/TypeScript-20232A??style=plastic&logo=typescript&logoColor=3178C6" alt="TypeScript.">
-  <!-- <img height='25px' src="https://img.shields.io/badge/Redux Toolkit-20232A??style=plastic&logo=redux&logoColor=764ABC" alt="Redux."> -->
+  <img height='25px' src="https://img.shields.io/badge/Redux Toolkit-20232A??style=plastic&logo=redux&logoColor=764ABC" alt="Redux.">
   <img height='25px' src="https://img.shields.io/badge/React Router-20232A??style=plastic&logo=reactrouter&logoColor=CA4245" alt="React Router.">
 </div>
 
@@ -17,7 +17,7 @@
 - Добавление товара в корзину, удаление товара из корзины
 - Подсчет общей стоимости товаров
 - Подсчет количества товаров
-- Кастомные компоненты Button и Text
+- Кастомные компоненты Button и Text, Card
 
 [Ссылка на макет: Neoflex-Invite-Test](<https://www.figma.com/file/qw44OPediu3iquaSvkLtqa/Neoflex-Invite-Test-(Copy)-(Copy)?type=design&node-id=0-1&mode=design>)
 

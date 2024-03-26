@@ -1,21 +1,12 @@
 import cn from 'classnames';
 import { Link } from 'react-router-dom';
-import tgIcon from '../../assets/Telegram.svg';
-import vkIcon from '../../assets/VK.svg';
-import whatsAppIcon from '../../assets/Whatsapp.svg';
 import lang from '../../assets/lang.svg';
 import Text, { TextSize, TextTheme } from '../../components/Text/Text';
-import { LINKDATA } from '../../utils/variables';
-import Button, { ButtonSizes, ButtonTheme } from '../Button/Button';
+import { LinksData, socialLinks } from '../../utils/variables';
+import Button, { ButtonSizes } from '../Button/Button';
 import Card from '../Card/Card';
 import Logo from '../Logo/Logo';
 import s from './Footer.module.css';
-
-const socialLinks = [
-	{ name: 'Вконтакте.', img: vkIcon, link: 'https://vk.com/' },
-	{ name: 'WhatsApp.', img: whatsAppIcon, link: 'https://web.whatsapp.com/' },
-	{ name: 'Телеграм.', img: tgIcon, link: 'https://web.telegram.org/' },
-];
 
 const Footer = () => {
 	return (
@@ -27,7 +18,7 @@ const Footer = () => {
 
 				<div className={s.navWrapper}>
 					<ul className={s.list}>
-						{LINKDATA.map(l => {
+						{LinksData.map(l => {
 							return (
 								<li className={s.item} key={l.text}>
 									<Link to={l.link} className={s.link}>
@@ -45,16 +36,11 @@ const Footer = () => {
 							<img src={lang} alt='Смена языка.' />
 							<Button
 								className={cn(s.button, s.activeButton)}
-								theme={ButtonTheme.CLEAR}
 								size={ButtonSizes.S}
 							>
 								Рус
 							</Button>
-							<Button
-								className={s.button}
-								theme={ButtonTheme.CLEAR}
-								size={ButtonSizes.S}
-							>
+							<Button className={s.button} size={ButtonSizes.S}>
 								Eng
 							</Button>
 						</div>
