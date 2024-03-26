@@ -19,7 +19,7 @@
 - Подсчет количества товаров
 - Кастомные компоненты Button и Text
 
-Макет: https://www.figma.com/file/qw44OPediu3iquaSvkLtqa/Neoflex-Invite-Test-(Copy)-(Copy)?type=design&node-id=0-1&mode=design
+[Ссылка на макет: Neoflex-Invite-Test](<https://www.figma.com/file/qw44OPediu3iquaSvkLtqa/Neoflex-Invite-Test-(Copy)-(Copy)?type=design&node-id=0-1&mode=design>)
 
 #### Установка и запуск приложения
 
@@ -37,7 +37,7 @@
 
 **Cсылка на проект**
 
-* [Ссылка: "neoflex-test"](https://mariyazakharova73.github.io/neoflex-test/)
+- [Ссылка: "neoflex-test"](https://mariyazakharova73.github.io/neoflex-test/)
 
 <!-- <div align="center">
   <img width="575" alt="Приложение." src="./src/assets/login.png">
