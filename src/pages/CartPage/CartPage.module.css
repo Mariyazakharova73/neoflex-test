@@ -7,6 +7,9 @@
 
 .list {
 	margin-top: 13px;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 .productCard {
@@ -41,4 +44,8 @@
 	align-items: center;
 	justify-content: center;
 	color: var(--white-color);
+}
+
+.emptyCart {
+	padding: 20px;
 }

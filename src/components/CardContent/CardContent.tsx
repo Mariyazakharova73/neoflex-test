@@ -1,5 +1,7 @@
 import star from '../../assets/star.png';
 import Text, { TextSize, TextTheme } from '../../components/Text/Text';
+import { useAppDispatch } from '../../hooks/hooks';
+import { cartActions } from '../../services/slices/cartSlice';
 import { Product } from '../../types/types';
 import Button, { ButtonSizes, ButtonTheme } from '../Button/Button';
 import s from './CardContent.module.css';
@@ -9,6 +11,12 @@ export interface CardContentProps {
 }
 
 const CardContent = ({ product }: CardContentProps) => {
+	const dispatch = useAppDispatch();
+
+	const onClickBuy = () => {
+		dispatch(cartActions.addProduct(product));
+	};
+
 	return (
 		<div className={s.cardContent}>
 			<div className={s.imageWrapper}>
@@ -45,7 +53,11 @@ const CardContent = ({ product }: CardContentProps) => {
 							theme={TextTheme.LIGHT}
 						/>
 					</div>
-					<Button theme={ButtonTheme.PRIMARY} size={ButtonSizes.M}>
+					<Button
+						theme={ButtonTheme.PRIMARY}
+						size={ButtonSizes.M}
+						onClick={onClickBuy}
+					>
 						Купить
 					</Button>
 				</div>

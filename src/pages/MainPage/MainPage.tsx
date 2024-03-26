@@ -6,6 +6,7 @@ import s from './MainPage.module.css';
 
 const MainPage = () => {
 	const products = useAppSelector(selectProducts);
+	
 	return (
 		<main className={s.main}>
 			<section>
