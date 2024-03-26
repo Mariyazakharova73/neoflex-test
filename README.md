@@ -13,6 +13,11 @@
 
 Две страницы интернет-магазина аудио аксессуаров. Первая страница – каталог товаров, вторая – корзина с приобретенными товарами.
 
+- Стилизация: css modules
+- Добавление товара в корзину, удаление товара из корзины
+- Подсчет общей стоимости товаров
+- Подсчет количества товаров
+
 Макет: https://www.figma.com/file/qw44OPediu3iquaSvkLtqa/Neoflex-Invite-Test-(Copy)-(Copy)?type=design&node-id=0-1&mode=design
 
 #### Установка и запуск приложения
@@ -28,6 +33,10 @@
 Запустить проект:
 
     npm start
+
+**Cсылка на проект**
+
+* [Ссылка: "app-canvas"](https://mariyazakharova73.github.io/neoflex-test/)
 
 <!-- <div align="center">
   <img width="575" alt="Приложение." src="./src/assets/login.png">
