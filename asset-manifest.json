@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/neoflex-test/static/css/main.ffafcd14.css",
-    "main.js": "/neoflex-test/static/js/main.7be336b5.js",
+    "main.js": "/neoflex-test/static/js/main.aa01d461.js",
     "static/media/3.jpg": "/neoflex-test/static/media/3.32187777dcb21ccab6d0.jpg",
     "static/media/9.jpg": "/neoflex-test/static/media/9.a655a305fd74256ea980.jpg",
     "static/media/8.jpg": "/neoflex-test/static/media/8.e900d4414ca9701fdc2a.jpg",
@@ -16,10 +16,10 @@
     "static/media/clear.svg": "/neoflex-test/static/media/clear.c3b466f51641c238a464efcaaee70ebf.svg",
     "static/media/like.svg": "/neoflex-test/static/media/like.e4867065cdf4a8882b292150c7141fcc.svg",
     "main.ffafcd14.css.map": "/neoflex-test/static/css/main.ffafcd14.css.map",
-    "main.7be336b5.js.map": "/neoflex-test/static/js/main.7be336b5.js.map"
+    "main.aa01d461.js.map": "/neoflex-test/static/js/main.aa01d461.js.map"
   },
   "entrypoints": [
     "static/css/main.ffafcd14.css",
-    "static/js/main.7be336b5.js"
+    "static/js/main.aa01d461.js"
   ]
 }
