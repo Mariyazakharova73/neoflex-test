@@ -30,7 +30,7 @@ const Footer = () => {
 						{LINKDATA.map(l => {
 							return (
 								<li className={s.item} key={l.text}>
-									<Link to={l.link} className={s.link} target='_blank'>
+									<Link to={l.link} className={s.link}>
 										<Text
 											className={s.text}
 											text={l.text}
