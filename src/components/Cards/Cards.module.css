@@ -1,0 +1,23 @@
+.wrapper {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 29px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .wrapper {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cardWrapper {
+  width: 350px;
+  min-height: 407px;
+  padding: 15px 20px 30px 22px;
+  margin-left: auto;
+  margin-right: auto;
+}

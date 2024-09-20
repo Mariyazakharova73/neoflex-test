@@ -1,0 +1,28 @@
+.link {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  opacity: 1;
+  transition: var(--app-transition);
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.count {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  right: -11px;
+  width: 17px;
+  height: 17px;
+  color: var(--white-color);
+  font: var(--font-s);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

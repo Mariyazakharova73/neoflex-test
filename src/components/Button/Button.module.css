@@ -1,0 +1,54 @@
+.button {
+  cursor: pointer;
+  transition: var(--app-transition);
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.primary {
+  color: var(--dark-color);
+}
+
+.primary:hover {
+  color: var(--primary-color);
+}
+
+.round {
+  background-color: var(--primary-light-color);
+  color: var(--white-color);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.size_xs {
+  font: var(--font-xs);
+}
+
+.size_s {
+  font: var(--font-s);
+}
+
+.size_m {
+  font: var(--font-m);
+}
+
+.size_l {
+  font: var(--font-l);
+}
+
+.size_xl {
+  font: var(--font-xl);
+}

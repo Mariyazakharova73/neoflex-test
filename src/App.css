@@ -2,6 +2,21 @@
   font-style: normal;
   min-width: 320px;
   max-width: 1440px;
-  width: 100%;
+  padding-left: 165px;
+  padding-right: 165px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

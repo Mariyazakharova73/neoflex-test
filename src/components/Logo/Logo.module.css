@@ -1,0 +1,14 @@
+.logo {
+  font-weight: 700;
+  color: var(--logo-color);
+}
+
+.link {
+  text-decoration: none;
+  opacity: 1;
+  transition: var(--app-transition);
+}
+
+.link:hover {
+  opacity: 0.6;
+}

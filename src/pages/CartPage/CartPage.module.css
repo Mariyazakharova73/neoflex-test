@@ -4,3 +4,48 @@
   gap: 127px;
   justify-content: space-between;
 }
+
+.list {
+  margin-top: 13px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productCard {
+  padding: 18px 28px 15px 19px;
+}
+
+.sumWrapper {
+  margin-top: 46px;
+}
+
+.sumCard {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sum {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 22px;
+  padding-right: 16px;
+}
+
+.button {
+  width: 348.98px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: var(--logo-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+}
+
+.emptyCart {
+  padding: 20px;
+}

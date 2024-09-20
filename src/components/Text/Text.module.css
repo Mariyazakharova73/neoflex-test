@@ -1,0 +1,79 @@
+.primary {
+  color: var(--primary-color);
+}
+
+.light {
+  color: var(--light-color);
+}
+
+.primaryLight {
+  color: var(--primary-light-color);
+}
+
+.dark {
+  color: var(--dark-color);
+}
+
+.default {
+  color: var(--default-collor);
+}
+
+.white {
+  color: var(--white-color);
+}
+
+.title {
+  font: var(--font-l);
+}
+
+.size_xs .text {
+  font: var(--font-xs);
+}
+
+.size_s .text {
+  font: var(--font-s);
+}
+
+.size_m .text {
+  font: var(--font-m);
+}
+
+.size_l .text {
+  font: var(--font-l);
+}
+
+.size_xl .text {
+  font: var(--font-xl);
+}
+
+.size_xs .title {
+  font: var(--font-xs);
+}
+
+.size_s .title {
+  font: var(--font-s);
+}
+
+.size_m .title {
+  font: var(--font-m);
+}
+
+.size_l .title {
+  font: var(--font-l);
+}
+
+.size_xl .title {
+  font: var(--font-xl);
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}

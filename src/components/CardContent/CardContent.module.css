@@ -1,0 +1,60 @@
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 237px;
+}
+
+.image {
+  width: 220px;
+  transition: var(--app-transition);
+  transform: 1;
+}
+
+.image:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate {
+  display: flex;
+  gap: 10px;
+}
+
+.sale {
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+}
+
+.sale p {
+  text-decoration: line-through;
+}
