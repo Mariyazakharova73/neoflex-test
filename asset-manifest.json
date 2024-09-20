@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/neoflex-test/static/css/main.6793b0b6.css",
+    "main.js": "/neoflex-test/static/js/main.69154d8e.js",
+    "static/media/3.jpg": "/neoflex-test/static/media/3.32187777dcb21ccab6d0.jpg",
+    "static/media/9.jpg": "/neoflex-test/static/media/9.a655a305fd74256ea980.jpg",
+    "static/media/8.jpg": "/neoflex-test/static/media/8.e900d4414ca9701fdc2a.jpg",
+    "static/media/1.jpg": "/neoflex-test/static/media/1.4a6d8980f0cdb6a776de.jpg",
+    "static/media/7.jpg": "/neoflex-test/static/media/7.70d1aa7823ce4c3b6fa0.jpg",
+    "static/media/vk.svg": "/neoflex-test/static/media/vk.200332db80feb34aac09a5f6d7d91e63.svg",
+    "static/media/whatsapp.svg": "/neoflex-test/static/media/whatsapp.8dc15f232a985aef74ed03315e7a3148.svg",
+    "static/media/cart.svg": "/neoflex-test/static/media/cart.0755738f949b36eb371956870cd1c963.svg",
+    "static/media/lang.svg": "/neoflex-test/static/media/lang.797e781eca4339c28cabcdd5b54c29bb.svg",
+    "static/media/telegram.svg": "/neoflex-test/static/media/telegram.17041232c86fdbc127e2f87541348769.svg",
+    "static/media/clear.svg": "/neoflex-test/static/media/clear.c3b466f51641c238a464efcaaee70ebf.svg",
+    "index.html": "/neoflex-test/index.html",
+    "static/media/like.svg": "/neoflex-test/static/media/like.e4867065cdf4a8882b292150c7141fcc.svg",
+    "main.6793b0b6.css.map": "/neoflex-test/static/css/main.6793b0b6.css.map",
+    "main.69154d8e.js.map": "/neoflex-test/static/js/main.69154d8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6793b0b6.css",
+    "static/js/main.69154d8e.js"
+  ]
+}
