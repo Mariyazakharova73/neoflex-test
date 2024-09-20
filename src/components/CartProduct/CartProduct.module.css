@@ -2,6 +2,12 @@
   width: 633px;
 }
 
+@media screen and (max-width: 767px) {
+  .item {
+    width: 100%;
+  }
+}
+
 .productCard {
   padding: 18px 28px 15px 19px;
   display: flex;

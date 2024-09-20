@@ -1,8 +1,8 @@
 .main {
-  padding: 29px 165px 388px;
   display: flex;
-  gap: 127px;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .list {
@@ -12,12 +12,30 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 767px) {
+  .listWrapper {
+    width: 100%;
+  }
+}
+
 .productCard {
   padding: 18px 28px 15px 19px;
 }
 
 .sumWrapper {
   margin-top: 46px;
+}
+
+@media screen and (max-width: 1279px) {
+  .sumWrapper {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sumWrapper {
+    width: 100%;
+  }
 }
 
 .sumCard {
@@ -44,6 +62,12 @@
   align-items: center;
   justify-content: center;
   color: var(--white-color);
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 100%;
+  }
 }
 
 .emptyCart {

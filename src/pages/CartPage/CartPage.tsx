@@ -19,7 +19,7 @@ const CartPage = () => {
         />
       ) : (
         <>
-          <section>
+          <section className={s.listWrapper}>
             <Text
               title="Корзина"
               theme={TextTheme.DEFAULT}
